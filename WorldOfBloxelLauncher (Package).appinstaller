@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://github.com/Felix-CodingClimber/WoBLauncherTEST/releases/latest/download/WorldOfBloxelLauncher (Package).appinstaller/WorldOfBloxelLauncher (Package).appinstaller"
+	Version="1.0.1.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="891c28b9-d601-4c26-b126-95b39ad60874"
+		Version="1.0.1.0"
+		Publisher="CN=Felix"
+		Uri="https://github.com/Felix-CodingClimber/WoBLauncherTEST/releases/latest/download/WorldOfBloxelLauncher (Package).appinstaller/WorldOfBloxelLauncher (Package)_1.0.1.0_Debug_Test/WorldOfBloxelLauncher (Package)_1.0.1.0_x64_Debug.msixbundle" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.WindowsAppRuntime.1.1"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://github.com/Felix-CodingClimber/WoBLauncherTEST/releases/latest/download/WorldOfBloxelLauncher (Package).appinstaller/WorldOfBloxelLauncher (Package)_1.0.1.0_Debug_Test/Dependencies/x64/Microsoft.WindowsAppRuntime.1.1.msix"
+			Version="1003.565.600.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.Debug"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://github.com/Felix-CodingClimber/WoBLauncherTEST/releases/latest/download/WorldOfBloxelLauncher (Package).appinstaller/WorldOfBloxelLauncher (Package)_1.0.1.0_Debug_Test/Dependencies/x64/Microsoft.VCLibs.x64.Debug.14.00.appx"
+			Version="14.0.30704.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.Debug.UWPDesktop"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://github.com/Felix-CodingClimber/WoBLauncherTEST/releases/latest/download/WorldOfBloxelLauncher (Package).appinstaller/WorldOfBloxelLauncher (Package)_1.0.1.0_Debug_Test/Dependencies/x64/Microsoft.VCLibs.x64.Debug.14.00.Desktop.appx"
+			Version="14.0.30704.0" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
